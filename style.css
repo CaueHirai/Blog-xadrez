@@ -1,0 +1,67 @@
+body {
+    font-family: system-ui;
+    color: white;
+    text-align: center;
+    background-image: url("fundo.png");
+    ;
+    }
+    .topo {
+    background-color: gray;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    }
+      .topo li {
+        color: gray;
+      }
+      .topo ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+      }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+    a:hover {
+      text-decoration: underline
+    }
+  .menu {
+    background-color: rgb(65, 122, 145);
+    font-size: 50px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    
+  }
+    .menu li {
+      color: rgb(160, 184, 207);
+    }
+    .menu ul{
+      display: flex;
+      flex-direction: row;
+      justify-content:center;
+      text-decoration: none;
+    }  
+    .peao img{
+    height: 70px
+    }
+  .semana{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    justify-content:space-around;
+  }
+  .semana img{
+    width: 300px;
+  }
+  .semana h1{
+    font-size: 38px;
+    color: rgb(65, 122, 145);
+    text-align: left;
+  }
+  .semana h2{
+    color:rgb(54, 98, 116);
+    text-align: left;
+  }
