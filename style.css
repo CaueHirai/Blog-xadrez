@@ -20,12 +20,18 @@ body {
         flex-direction: row;
         justify-content: space-around;
       }
-  a {
+  a:link {
     color: white;
     text-decoration: none;
   }
+    a:visited {
+      color: rgb(192, 189, 189)
+    }
     a:hover {
-      text-decoration: underline
+      color: rgb(110, 101, 101)
+    }
+    a:active{
+      font-weight: bold;
     }
   .menu {
     background-color: rgb(65, 122, 145);
